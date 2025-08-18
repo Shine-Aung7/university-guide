@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color:#add8e6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+    text-align: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  width: 600px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(19, 4, 4);
+}
+
+.form-box h2 {
+  margin-bottom: 25px;
+  font-size: 1.8em;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  outline: none;
+}
+
+input::placeholder,
+select {
+  color: #b8c0ff(255, 255, 255, 0.7);
+  font-size: 0.95em;
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20fill%3D'%23fff'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%20width%3D'24'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M7%2010l5%205%205-5z'/%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+h4{
+    padding-top:50px;
+    text-align: center;
+    color:#002366;
+}
+
+.submit-btn,
+.cancel-btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-btn {
+  background-color:rgb(119, 158, 216);
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #1664d9;
+}
+
+.cancel-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}

@@ -1,0 +1,200 @@
+header {
+  background-color: #002366;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+strong{
+  font-size: 28px;
+  
+}
+span{
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 14px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  padding: 5px 8px;
+  display: block;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-content li a {
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+.dropdown-content li a:hover {
+  background-color: #c4e5f3;
+}
+
+/* Show dropdown on hover (desktop) */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.container{
+    
+    margin: 0 auto;
+    padding: left 20px; 
+    padding: right 20px; 
+}
+
+.info{
+    padding-left: 25px;
+}
+
+.script{
+    background-color:#cfe6f7;
+    padding: 40px;
+
+
+}
+
+.title2{
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 3px solid #002366;
+    background-color: #002366;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+.a{
+    color: white;
+    text-decoration: none;
+}
+
+.listline:hover{
+    text-decoration: underline;
+}
+
+.ref{
+  background-color: #002366;
+  text-align: center;
+  padding: 20px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  background-color: #cfe6f7 ;
+}
+.bottom1{
+    text-align: center;
+    background-color: #002366;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.bottom2{
+  display: flex;
+    text-align: center;
+    background-color: #002366;
+    justify-content: space-around;
+      font-size: 20px;
+
+
+}
+
+.bottom3{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+.bottom4{
+  padding-right: 60px;
+}
+
+.bottom5{
+  padding-left: 60px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.bottom6{
+  text-align: center;
+  background-color: #002366;
+  font-size: 20px;
+  color:  #cfe6f7;
+}
+
+.go2 a{
+      cursor: pointer;
+    color: #cfe6f7;
+    text-decoration: none;
+    padding-top: 10px;
+ 
+}
+
+
+.go2 a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+.future{
+  color: #cfe6f7;
+}
+
+.navigate{
+  font-size: 20px;
+  
+}
+

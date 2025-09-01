@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommandation Website</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body id="top">
+    <header>
+    <div class="header-container"  >
+      <div class="logo">
+        <span>Science and Technological University</span><br />
+        <strong>Recommendation Website</strong>
+      </div>
+       <nav>
+      <ul>
+        <li><a href="major.html">Home</a></li>
+        <li><a href="Major list.html">Majors</a></li>
+
+        <!-- Dropdown for List -->
+        <li class="dropdown">
+          <a  class="listline" href="#">List ▾</a>
+          <ul class="dropdown-content">
+            <li><a href="TU CU PU list.html">Main List</a></li>
+            <li><a href="TU LIST.html">TU list</a></li>
+            <li><a href="PU LIST.html">PU list</a></li>
+            <li><a href="CU List.html">CU list</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Contact us</a></li>
+         <li><a href="#">About</a></li>
+
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+    <div class="back" >
+
+    <div class="bar"></div>
+    <div class="Part1" >
+        <div class="Part1a">
+            <img class="logo"  src="data:image/jpeg;base64,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" alt="logo of University">
+        </div>
+        <div class="Part1b"><h2>Technological University(Yamethhin)</h2></br>  
+           <h3> နည်းပညာတက္ကသိုလ် (ရမည်းသင်း)</h3> </div>
+        <div class="Part1c">
+            <img class="logo" src="data:image/jpeg;base64,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" alt="logo of University">
+         </div>
+    </div>
+
+    <div class="title2">
+    <div class="Part2">
+        <div class="imagecontainer">
+            <div class="slider">
+
+                <img class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Technological_University_Yamethin_MB.jpg/1280px-Technological_University_Yamethin_MB.jpg" alt="image">
+                <img class="images" src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nouUwU-uw6zS6Ll183oY6WKZm9MHl7d8KvTptxaTs6jIiA4QyahikCMyn-uGghfP9-kW2yFCXf9Lr1z62bmrDy076-2tkqyFp3KUku0o7uuVWWjoGenJlKQk4AFjhj9YMNf4agmKQ=s1360-w1360-h1020-rw" alt="image">
+                <img class="images" src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqaVYIFpplvgK_q1ADuEJ1gbbq1JNpDopObH9GiVW9ZWJdmh77TFQfSyFfXarTVs2CgXop349dPQs8UaeayuakVw0Y1ZuPa9h1SI3xE1XJ4nTWjP87DCLMdD25odjm1GLJaQdi3=s1360-w1360-h1020-rw" alt="image">
+                <img class="images" src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4noCjWiLT59F1V0uduSlFWynMhN21dp3TdvFQYB98qGzWSqVV10GivBGo_93E4HfleNAKvpIt_aga50tSG9zQzwCdnIg29umwel0itiZBVI0dQznh1YZp1ak36kpYd8VbqTP5z0d=s1360-w1360-h1020-rw" alt="Building">
+            </div>
+
+
+            </div>
+        </div>
+     </div>
+
+     <div class="Part3">
+        <div class="Part3a">
+            <h1>About University</h1>
+            <p class="contaxt">Technological University (Yamethin) (Burmese: နည်းပညာတက္ကသိုလ် (ရမည်းသင်း)) is located at Yamethin, Mandalay Region of Myanmar. It was established as the Government Technical Institute (GTI) 
+          under the Department of Technological Promotion and Coordination on 11 November 1999. It became Government Technological College (GTC) on 24 April 2009. On 22 April 2010, it developed the Technological University- Yamethin (TU-YMT)
+           under the Ministry of Science and Technology.</p>
+        </div>  
+      
+        <div class="Part3b">
+       
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Technological_University_Yamethin_MB.jpg/1280px-Technological_University_Yamethin_MB.jpg" alt="image">
+          
+        </div>
+     </div>
+
+          <div class="Part3 ">
+
+                    <div class="Part3b">
+           
+                <img  src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqaVYIFpplvgK_q1ADuEJ1gbbq1JNpDopObH9GiVW9ZWJdmh77TFQfSyFfXarTVs2CgXop349dPQs8UaeayuakVw0Y1ZuPa9h1SI3xE1XJ4nTWjP87DCLMdD25odjm1GLJaQdi3=s1360-w1360-h1020-rw" alt="image">
+          
+        </div>
+
+        <div class="Part3a">
+            <h1>Department</h1>
+        <p class="contaxt">
+        <li>
+          <ol>Civil Engineering Department</ol>
+          <ol>Electronic and Communication Department</ol>
+          <ul>Electrical Power Engineering Department</ul>
+          <ul>Mechanical Power Engineering Department</ul>
+             <ul>Academic Department</ul>
+        </li> 
+        </p>
+        </div>  
+
+    </div>
+
+        <div class="Part3">
+        <div class="Part3a">
+            <h1>Admission / Permission</h1>
+             <p class="contaxt"> Admission to Technological University (Yamethin) is based on the results of the Myanmar University Entrance Examination 
+          (also known as the Matriculation Examination). 
+          Students who have passed this exam with a minimum total score in subjects 
+          like English, Mathematics, Chemistry, and Physics are eligible to apply. 
+          The specific required marks can vary each academic year and are determined by the university and the government</p>
+        </div>  
+      
+        <div class="Part3b">
+       
+                <img  src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nouUwU-uw6zS6Ll183oY6WKZm9MHl7d8KvTptxaTs6jIiA4QyahikCMyn-uGghfP9-kW2yFCXf9Lr1z62bmrDy076-2tkqyFp3KUku0o7uuVWWjoGenJlKQk4AFjhj9YMNf4agmKQ=s1360-w1360-h1020-rw" alt="image">
+          
+        </div>
+     </div>
+
+               <div class="Part3 ">
+
+                    <div class="Part3b">
+           
+                <img  src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4noCjWiLT59F1V0uduSlFWynMhN21dp3TdvFQYB98qGzWSqVV10GivBGo_93E4HfleNAKvpIt_aga50tSG9zQzwCdnIg29umwel0itiZBVI0dQznh1YZp1ak36kpYd8VbqTP5z0d=s1360-w1360-h1020-rw" alt="image">
+          
+        </div>
+
+        <div class="Part3a">
+            <h1>History</h1>
+       
+         <p class="contaxt">1999: It was established as the Government Technical Institute (GTI) on November 11.</br>
+          2009: It was upgraded to the Government Technological College (GTC) on April 24.</br>
+          2010: It officially became Technological University (Yamethin) on April 22, 
+          falling under the administration of the Ministry of Science and Technology. </p>
+        </p>
+        </div>  
+
+    </div>
+     <div class="Part4">
+            <div><h1 class="tabletitle">Summary Table</h1></div>
+            <div class="table-box">
+            <table>
+                <thead>
+                <tr>
+                    <th>Majors</th>
+                    <th>Bechelors</th>
+                    <th>Duration</th>
+                    <th>Address & Contact</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="width: 300px;">Civil Engineering</td>
+                    <td rowspan="4" class="center">Bechelor of Engineering(B.E)<br></td>
+                    <td rowspan="4" class="center">5 years</td>
+                    <td rowspan="4" class="center">
+                        Beside Yangon-Mandalay Main Road,<br>
+                        Yamethin Township,<br>
+                        Myanmar.<br>
+                        06440201
+                    <a href="https://maps.app.goo.gl/UQThuA5FEPFXeuHk7" target="_blank">
+                        Click for Location
+                    </a>
+                    </td>
+                    </tr>
+                
+                    
+                    <tr class="row"><td>Electronic Engineering</td></tr>
+                    <tr class="row"><td>Electrical Power Engineering</td></tr>
+                    <tr class="row"><td>Mechanical Engineering</td></tr>
+        
+                </tbody>
+            </table>
+            </div>
+</div>
+    </div>
+    
+    <div class="bottom">
+        
+        <a class="go" href="yamethin.html"><b><<< Yangon</b></a> 
+        <a class="go" href="#top"><b>  <img class="uparrow" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-up-a-1024.png">Go To Header <img class="uparrow" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-up-a-1024.png"></b></a>
+        <a class="go" href="yamethin.html"><b>Mandalay>>> </b></a> 
+    </div>
+    <div class="bottom1"><p class="future">University Group Project:</p></div>
+    <div class="bottom2">
+        
+
+    <div>
+         <div class="go2"><a   href="policy.html">@Policy Terms</a> </br></div>
+         <div class="go2"><a   href="policy.html">@Terms of Service</a> </br></div>
+        <div class="go2"><b>Find Your Future</b>
+        <p class="future">We help you find the best path for your career.</br> Our website recommends universities and programs </br> to match your goals.</p> </div>
+    </div>
+    <div clsss="navigate"> <p class="future">Navigate:</p>
+    <div class="bottom3">
+            <div class="bottom4">
+            
+               <div  class="go2"><a   href="">@Technological UniversityHome </a> </br></div> 
+                <div class="go2" ><a  href=""> @Computer University</a></br></div>
+                <div class="go2"><a   href=""> @Polytechnic University</a></br></div>
+            </div> 
+            <div class="bottom5">
+            <div  class="go2"><a  href="">@Home </a> </br></div>
+            <div  class="go2"><a   href="">@About</a>  </br></div>
+            <div  class="go2"><a  href="">@Contact us:</br>+959756287262 </a> </br></div>
+            </div>
+             
+    </div>
+    
+    </div>
+    </div>
+    <div class="bottom6">@2025 Science and Technological University.All rights reserved.</div>
+
+    
+       
+
+    
+</body>
+</html>

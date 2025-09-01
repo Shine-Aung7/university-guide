@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommandation Website</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body id="top">
+    <header>
+    <div class="header-container"  >
+      <div class="logo">
+        <span>Science and Technological University</span><br />
+        <strong>Recommendation Website</strong>
+      </div>
+       <nav>
+      <ul>
+        <li><a href="major.html">Home</a></li>
+        <li><a href="Major list.html">Majors</a></li>
+
+        <!-- Dropdown for List -->
+        <li class="dropdown">
+          <a  class="listline" href="#">List ▾</a>
+          <ul class="dropdown-content">
+            <li><a href="TU CU PU list.html">Main List</a></li>
+            <li><a href="TU LIST.html">TU list</a></li>
+            <li><a href="PU LIST.html">PU list</a></li>
+            <li><a href="CU List.html">CU list</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Contact us</a></li>
+         <li><a href="#">About</a></li>
+
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+    <div class="back" >
+
+    <div class="bar"></div>
+    <div class="Part1" >
+        <div class="Part1a">
+            <img class="logo"  src="data:image/jpeg;base64,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" alt="logo of University">
+        </div>
+        <div class="Part1b"><h2>Computer University(Thahton)</h2></br>  
+           <h3> ကွန်ပျူတာတက္ကသိုလ်(သထုံ)</h3> </div>
+        <div class="Part1c">
+            <img class="logo" src="data:image/jpeg;base64,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" alt="logo of University">
+         </div>
+    </div>
+
+    <div class="title2">
+    <div class="Part2">
+        <div class="imagecontainer">
+            <div class="slider">
+
+                <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfhw3JOQiYh2LgtGSrOVOd_YwD1U_AH8J3g&s" alt="image">
+                <img class="images" src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npSXdQ32hZNj9pjHlpBckKtAOvySOUf5j9OuOgc1jAtAlx5pJ8huL85g0ds8oqKGi8KKI_p_IRFZZS11ZUm3-uQKX6WznSvfH2FAFJyoY9YGQ785TjLNcp5bVaHnYcXE-kYVmHgcQ=w203-h135-k-no" alt="image">
+                <img class="images" src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrDk1ChXUE7U0-YAnjnb7I0JwHo0u1j57VVY2M185uMITpbJqGbu0sPUOQjmaZB_4LcAYaItoczwqq7lmLiSrYDyS1WOGmkdMPcKsAiIi9AtaiyrfFn5RhyPIE_OMngZUOrvrfD3Q=w203-h152-k-no" alt="image">
+                <img class="images" src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqoUlMK7iUfmegIDA4aE3lXZcUXP3MxW_RdFfFj9i_PeWs1WY7zDNVWsEZAGxOdBKLdDmbGxm8m8nJPcMjw_ojcWsTYRvHSehwRsAqoD4yW_QoE7VHLVyLN5xOdhwbjqqTdbaAI6w=w203-h152-k-no" alt="Building">
+            </div>
+
+
+            </div>
+        </div>
+     </div>
+
+     <div class="Part3">
+        <div class="Part3a">
+            <h1>About University</h1>
+            <p class="contaxt"> 
+                University of Computer Studies (Thaton) was established in 2000 and is now located at the fort of the Wondami Hilllock in God village, Thaton Township, Mon State with the aim of nurturing IT professionals.</p>
+        </div>  
+      
+        <div class="Part3b">
+       
+                <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfhw3JOQiYh2LgtGSrOVOd_YwD1U_AH8J3g&s" alt="image">
+          
+        </div>
+     </div>
+
+          <div class="Part3 ">
+
+                    <div class="Part3b">
+           
+                <img  src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npSXdQ32hZNj9pjHlpBckKtAOvySOUf5j9OuOgc1jAtAlx5pJ8huL85g0ds8oqKGi8KKI_p_IRFZZS11ZUm3-uQKX6WznSvfH2FAFJyoY9YGQ785TjLNcp5bVaHnYcXE-kYVmHgcQ=w203-h135-k-no" alt="image">
+          
+        </div>
+
+        <div class="Part3a">
+            <h1>Department</h1>
+        <p class="contaxt">
+        <li>
+          <ol>Civil Engineering Department</ol>
+          <ol>Electronic and Communication Department</ol>
+          <ul>Electrical Power Engineering Department</ul>
+          <ul>Mechanical Power Engineering Department</ul>
+             <ul>Academic Department</ul>
+        </li> 
+        </p>
+        </div>  
+
+    </div>
+
+        <div class="Part3">
+        <div class="Part3a">
+            <h1>Admission / Permission</h1>
+             <p class="contaxt"> Admission to Computer University(Thahton) is based on the results of the Myanmar University Entrance Examination 
+          (also known as the Matriculation Examination). 
+          Students who have passed this exam with a minimum total score in subjects 
+          like English, Mathematics are eligible to apply. 
+          The specific required marks can vary each academic year and are determined by the university and the government</p>
+        </div>  
+      
+        <div class="Part3b">
+       
+                <img  src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrDk1ChXUE7U0-YAnjnb7I0JwHo0u1j57VVY2M185uMITpbJqGbu0sPUOQjmaZB_4LcAYaItoczwqq7lmLiSrYDyS1WOGmkdMPcKsAiIi9AtaiyrfFn5RhyPIE_OMngZUOrvrfD3Q=w203-h152-k-no" alt="image">
+          
+        </div>
+     </div>
+
+               <div class="Part3 ">
+
+                    <div class="Part3b">
+           
+                <img  src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqoUlMK7iUfmegIDA4aE3lXZcUXP3MxW_RdFfFj9i_PeWs1WY7zDNVWsEZAGxOdBKLdDmbGxm8m8nJPcMjw_ojcWsTYRvHSehwRsAqoD4yW_QoE7VHLVyLN5xOdhwbjqqTdbaAI6w=w203-h152-k-no" alt="image">
+          
+        </div>
+
+        <div class="Part3a">
+            <h1>History</h1>
+       
+         <p class="contaxt">The Computer University (Thaton) is situated at the fort of the Wondami Hilllock in God village of Thaton Township, Mon State.
+             At first, Government Computer College (Mawlamyine) was opened on 4th September 2000 in the compound of Government Technical College(Mawlamyine) in Mon State. 
+             It was later moved next to Mawlamyine Industrial Zone in Naung Pin Zate Village Tract of Kyaikmayaw Township. 
+             In 20th January 2007, it was upgraded to the University level and named as the Computer University (Mawlamyine). 
+             At present, the University is so named as the Computer University (Thaton) as it was moved to Thaton in 20th November (2011).
+             The Grand Opening Ceremony of the Computer University (Thaton) was successfully held on 5th December 2011. </p>
+        </p>
+        </div>  
+
+    </div>
+     <div class="Part4">
+            <div><h1 class="tabletitle">Summary Table</h1></div>
+            <div class="table-box">
+            <table>
+                <thead>
+                <tr>
+                    <th>Majors</th>
+                    <th>Bechelors</th>
+                    <th>Duration</th>
+                    <th>Address & Contact</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="width: 300px;">Computer Science</td>
+                    <td>Bechelor of Computer Science(B.C.Sc)</td>
+                
+                    <td rowspan="2" class="center">4 years</td>
+                    <td rowspan="2" class="center">
+                        
+                        Thahton Township,
+                        Mon State<br>
+                        Myanmar.<br>
+                        095322584
+                    <a href="https://maps.app.goo.gl/NjRu1zWpXu5RTCKb7?g_st=atm" target="_blank">
+                        Click for Location
+                    </a>
+                    </td>
+                    </tr>
+                    <tr class="row"><td>Computer Technology</td>
+                    <td>Bechelor of Computer Technology(B.C.Tech)</td></tr>
+                
+        
+                </tbody>
+            </table>
+            </div>
+</div>
+    </div>
+    
+    <div class="bottom">
+        
+        <a class="go" href="CU myitkyina.html"><b><<< myitkyina</b></a> 
+        <a class="go" href="#top"><b>  <img class="uparrow" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-up-a-1024.png">Go To Header <img class="uparrow" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-up-a-1024.png"></b></a>
+        <a class="go" href="CU Sittwe.html"><b>Sittwe>>> </b></a> 
+    </div>
+    <div class="bottom1"><p class="future">University Group Project:</p></div>
+    <div class="bottom2">
+        
+
+    <div>
+         <div class="go2"><a   href="policy.html">@Policy Terms</a> </br></div>
+         <div class="go2"><a   href="policy.html">@Terms of Service</a> </br></div>
+        <div class="go2"><b>Find Your Future</b>
+        <p class="future">We help you find the best path for your career.</br> Our website recommends universities and programs </br> to match your goals.</p> </div>
+    </div>
+    <div clsss="navigate"> <p class="future">Navigate:</p>
+    <div class="bottom3">
+            <div class="bottom4">
+            
+               <div  class="go2"><a   href="">@Technological UniversityHome </a> </br></div> 
+                <div class="go2" ><a  href=""> @Computer University</a></br></div>
+                <div class="go2"><a   href=""> @Polytechnic University</a></br></div>
+            </div> 
+            <div class="bottom5">
+            <div  class="go2"><a  href="">@Home </a> </br></div>
+            <div  class="go2"><a   href="">@About</a>  </br></div>
+            <div  class="go2"><a  href="">@Contact us:</br>+959756287262 </a> </br></div>
+            </div>
+             
+    </div>
+    
+    </div>
+    </div>
+    <div class="bottom6">@2025 Science and Technological University.All rights reserved.</div>
+
+    
+       
+
+    
+</body>
+</html>
